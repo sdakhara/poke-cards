@@ -1,0 +1,52 @@
+:root{
+    --one: #C5D7BD;
+    --two: #9FB8AD;
+    --three: #383E56;
+    --four: #FB743E;
+}
+body{
+    background-color: var(--one);   
+    color: var(--four);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#card{
+    margin: auto;
+    padding: 5px;
+    background-color: var(--three);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#photo{
+    background-color: #9FB8AD;
+    border-radius: 5px;
+    height: 200px;
+}
+#dataContainer{
+    display: flex;
+    justify-content: space-evenly;
+    text-transform: capitalize;
+    font-family: 'Press Start 2P', cursive;
+    margin: 5px;
+
+}
+
+#btnContainer{
+    margin-top: 20px;
+}
+#btn{
+    border: 1px solid;
+    background-color: var(--three);
+    color: var(--four);
+}
+
+#mainContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
